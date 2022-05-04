@@ -2,10 +2,10 @@
 title: "Transparencia en Investigación: Problemas y Soluciones"
 subtitle: ".font80[Universidad de los Andes, Colombia]"
 author: "Fernando Hoces de la Guardia, </br> Berkeley Initiative for Transparency in the Social Sciences"
-date:  "4 de Mayo, 2022 | [diapositivas](https://github.com/BITSS/slides-uandes2022)"
+date:  "4 de Mayo, 2022 | [diapositivas](https://bitss.github.io/slides-uandes2022/)"
 output: 
   xaringan::moon_reader:
-    footer: "These slides available at https://github.com/BITSS/slides-uandes2022"
+    footer: "These slides available at https://github.com/BITSS/slides-uandes2022/"
     css: [default, metropolis, metropolis-fonts] 
     lib_dir: libs
     nature:
@@ -1114,10 +1114,12 @@ count: false
 2. [Transparencia en la Investigación Científica](#ADD)
 
 3. [Problemas y Soluciones](#ADD)
+]
 
 --
-]
-font130[
+
+
+.font130[
 
 Bonus. **Aplicación al Análisis de Políticas Públicas**  
 [Ver Presentación Aquí (en ingles)](https://youtu.be/fNbtOMLR8eQ)
@@ -1137,5 +1139,5 @@ count: false
 
 
 ```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
-pagedown::chrome_print("index.html", "01_slides.pdf" )
+pagedown::chrome_print("01_slides.html", "01_slides.pdf" )
 ```
